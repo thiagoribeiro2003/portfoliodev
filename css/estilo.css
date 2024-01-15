@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+/* Configurações para zera css */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit; 
+}
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth; 
+}
+
+img {
+  width: 100%;
+}
+
+/* Final da Configurações para zera css */
+
+/* Configurações header (Cabeçalho) */
+header {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+
+    position: sticky;
+    background: white;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+nav a:hover {
+  border-radius: 5px;
+  color: #CDD4E9 !important;
+  transition: .2s ease-in-out;
+
+  background: rgb(18,87,168);
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
+}
+
+.logoRP {
+  border-radius: 100%;
+  width: 5rem;
+}
+/* Final Configurações header (Cabeçalho) */
+
+.hero-start {
+  /* background-image: url(../img/bg/bg-teste1.jpeg) !important; */
+  background-color: #1c1c1c;
+  background-size: cover !important;
+}
+
+/* Hero start */
+.hero-start {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.textHero {
+  /* background-color: rgba(0, 0, 0, 0.597); */
+  color: whitesmoke; /* para garantir a visibilidade do texto no fundo preto */
+  padding: 2px;
+}
+
+.textHeroProjetos {
+  color: #2983bb;
+}
+
+.titleProjetos {
+  color: #267fb6;
+}
+
+.bgProjetos {
+  background-color: #1c1c1c;
+}
+
+
+
+/* Button Padrão */
+.colors-primary {
+  width: 50%;
+  height: 100%;
+  letter-spacing: .3rem;
+  color: white !important;
+  background: #265D80 !important;
+}
+
+.colors-primary:hover {
+  transform: translateX(10px) scale(1.03);
+}
+
+/* Button Download curriculo */
+.linkProjeto {
+  width: 50%;
+  height: 100%;
+  letter-spacing: .3rem;
+  color: #FFFFFF !important;
+  background: #552828 !important;
+}
+
+.linkProjeto:hover {
+  transform: translateX(10px) scale(1.03);
+}
+
+/* Button Download curriculo */
+.curriculo {
+  width: 50%;
+  height: 100%;
+  letter-spacing: .3rem;
+  color: #FFFFFF !important;
+  background: #552828 !important;
+}
+
+.curriculo:hover {
+  transform: translateX(10px) scale(1.03);
+}
+
+.btn-home-saiba-mais {
+  height: 3rem;
+  color: white !important;
+  background: rgb(18,87,168) !important;
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%) !important;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: transform 0.5s;
+}
+
+.btn-home-saiba-mais:hover{
+  transform: translateX(1px) scale(1.03);
+}
+
+.btn-home-voltar {
+  transition: transform 0.5s !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.btn-home-voltar:hover {
+  transform: translateX(1px) scale(1.03) !important;
+}
+
+/* Final buttom Padrão */
+
+/* Estilização do Conteúdo */
+main {
+  font-family: 'Nunito Sans' !important;
+}
+
+main span {
+  font-size: 1.5rem ;
+  color: #192C57;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+}
+
+.about-block-info-title {
+  margin-top: 4rem;
+}
+
+
+
+.about-block-info {
+  margin-top: 4rem; 
+}
+
+.about-block-info-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-block-info-skills div {
+  margin: .5rem;
+  padding: 1rem;
+  background: #dbdbdb;
+  border-radius: .5rem;
+  text-transform: uppercase;
+
+  font-weight: 700;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.form-control.error {
+  border-color: red !important;
+}
+
+/* Paragrafo no geral */
+p {
+  font-size: 1.2rem;
+}
+
+/* project-album-img */
+.project-album-img {
+  width: 350px;
+  height: 350px;
+
+  border-radius: .5rem;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.projet-One {
+  background-image: url('../img/projetosFotos/agenciaColorsThiago.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Two {
+  background-image: url('../img/projetosFotos/calorDado.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Three {
+  background-image: url('../img/projetosFotos/falaMic.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Four {
+  background-image: url('../img/projetosFotos/microblog.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Five {
+  background-image: url('../img/projetosFotos/api.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Six {
+  background-image: url('../img/projetosFotos/dahoraFilmes.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/* Pages Project */
+.project-page {
+  width: 90%;
+}
+
+.fotter-block-info {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+footer {
+  height: 100%;
+  background: #1c1c1c;
+  
+}
+
+footer p {
+  font-size: .9rem;
+  color: #FFFFFF;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+form {
+  width: 100%;
+  padding: 1.5rem;
+  background: #fff;
+
+  border-radius: .5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px -8px 16px -8px;
+}
+
+.contat-form {
+    background-color: #FFFFFF;
+    background-size: cover !important;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px )  {
+  .hero-start {
+    background-image: none !important;
+  }
+
+  .colors-primary {
+    width: 100%;
+  }
+
+  .curriculo {
+    width: 100%;
+  }
+
+  .linkProjeto {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .mSobre {
+    margin: 2rem 0 0 0;
+  }
+}
+@media (min-width: 600px) {
+
+  .projet-Five {
+    background-image: url('../img/projetosFotos/api.png');
+    background-position: center;
+  } 
+
+  form {
+    width: 60%;
+  }
+}
