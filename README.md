@@ -22,7 +22,6 @@ Este é o repositório do meu portfólio, onde apresento meus projetos e habilid
 
 ## Referências
 
-- [RAM MAHESHWARI](https://www.rammaheshwari.com/): Visite meu site para ver mais informações e atualizações.
 - [RODRIGO PEDROSO](https://r0drigo-pedroso.github.io/Portfolio/)
 
 ## Site para manipular Formulários
